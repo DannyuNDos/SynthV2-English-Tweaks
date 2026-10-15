@@ -16,7 +16,7 @@ For the NEAR, SQUARE, and CURE vowels, this script borrows German phonemes.
 
 This script will override the phoneme set of all selected notes to X-Sampa.
 
-Since SynthV employs the American tapped R by default, it is advisable to turn off the "Use relaxed consonants" option.
+Since SynthV employs the American tapped R by default, it is advisable to turn off the "Use relaxed consonants" option of the note group.
 
 You need SynthV Studio 2 with the version of at least 2.3.0b1 to use this script.
 
