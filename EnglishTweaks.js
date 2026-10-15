@@ -96,9 +96,8 @@ buttonValue.setValueChangeCallback(function () {
             const j = note.getIndexInParent();
             tweakEnglish(note, phonemes[j]);
         }
-        SV.finish();
     }
-    SV.setTimeout(10, callback);
+    SV.setTimeout(400, callback);
 });
 
 function getSidePanelSectionState() {
