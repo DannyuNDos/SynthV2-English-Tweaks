@@ -75,8 +75,8 @@ function tweakEnglish(note, phonemeStr) {
         }
         return false;
     }
-    replacer(/@`/, "@") || replacer(/A\sr\\/, "A") || replacer(/O\sr\\/, "o") ||
-        replacer(/I\sr\\/, "I :6") || replacer(/E\sr\\/, "E :6") || replacer(/U\sr\\/, "U :6");
+    replacer(/@`/, "@"); replacer(/A\sr\\/, "A"); replacer(/O\sr\\/, "o");
+    replacer(/I\sr\\/, "I :6"); replacer(/E\sr\\/, "E :6"); replacer(/U\sr\\/, "U :6");
     if (phonemeStr != newPhonemeStr) {
         note.setPhonemes(newPhonemeStr);
     }
